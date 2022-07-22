@@ -1,5 +1,5 @@
 {
-    // This is the default device when no procresses are started. __default__ is a special value that tells the program to get the default windows audio input and use that as default
+    // This is the default device when no processes are started. __default__ is a special value that tells the program to get the default windows audio input and use that as default
     "defaultDevice": "__default__",
     // "defaultDevice": "Realtek(R) Audio\Device\Speakers\Render",
     "processes": {

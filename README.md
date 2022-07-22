@@ -9,9 +9,9 @@ My use cases are:
 
 # Configuration
 There is one file you need to configure which maps the process name to the sound device. This file is called `process_mapping.json`. Here's an example:
-```json
+```jsonc
 {
-    // This is the default device when no procresses are started. __default__ is a special value that tells the program to get the default windows audio input and use that as default
+    // This is the default device when no processes are started. __default__ is a special value that tells the program to get the default windows audio input and use that as default
     "defaultDevice": "__default__",
     // "defaultDevice": "Realtek(R) Audio\Device\Speakers\Render",
     "processes": {
